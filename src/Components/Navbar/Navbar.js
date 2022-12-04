@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="logo text-center flex md:order-1">
         <div className="w-32 md:w-48  p-4 cursor-pointer"><img src={logo} alt="" /></div>
         <div className="features md:static absolute inset-0 w-fit bg-gray-300 md:bg-white md:w-auto md:flex md:mx-4
-         md:space-x-2 -translate-x-96 md:translate-x-0 flex items-center">
+         md:space-x-2 -translate-x-96 md:translate-x-0 flex items-center cursor-pointer">
           <div className="items">Microsoft 365</div>
           <div className="items">Office</div>
           <div className="items">Windows</div>

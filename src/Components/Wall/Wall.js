@@ -7,7 +7,7 @@ const Wall = () => {
     <div className="relative ">
       <img
         src={bg}
-        className="absolute inset-0 object-cover w-full h-[500px]"
+        className="sm:absolute inset-0 object-cover w-full h-[500px] "
         alt=""
       />
       <div className="relative ">
@@ -22,7 +22,7 @@ const Wall = () => {
               Turn up the thrills with can’t-miss deals on headsets, mice, keyboards, and more
               </p>
               <button className='px-4 py-2 bg-black text-white mt-5  '>Shop Xbox accessories</button>
-              <button className='px-4 py-2  text-white mt-5  '>Shop PC accessories </button>
+              <button className='px-4 py-2  text-black mt-5  '>Shop PC accessories </button>
             </div>
             
           </div>

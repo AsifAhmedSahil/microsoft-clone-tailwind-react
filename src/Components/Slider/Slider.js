@@ -4,7 +4,7 @@ import headphones from "../../assets/headphones.jpg"
 
 const Slider = () => {
   return (
-    <div className='slider flex flex-col-reverse md:flex-row bg-[#f2f2f2] mx-10'>
+    <div className='slider flex flex-col-reverse md:flex-row bg-[#f2f2f2] mx-10 h-[500px]'>
 
         <div className='left flex flex-col justify-center items-center md:items-baseline py-12'>
             <h1 className='md:text-3xl text-2xl mx-5 text-center font-bold '>Save on select Surface</h1>
